@@ -1,0 +1,112 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Itim', cursive;
+
+}
+
+/* Hero section */
+
+#lagos-head-image{
+    background-image: url("https://media.istockphoto.com/photos/rainy-day-in-african-city-lagos-nigeria-picture-id1333644709?k=20&m=1333644709&s=612x612&w=0&h=aYVlm61s9ODkhCvvicc2c9PwRHYqElaQPys4paO3cy8=");
+    width: auto;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     
+    
+
+}
+.lagos-head{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 40px 60px 40px;
+    margin-bottom: 10px;
+   
+    
+}
+
+
+.lagos-title{
+    background-color: #1D3557;
+    padding: 15px 20px;
+    margin: 10px 40px;
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    
+}
+
+.lagos-intro{
+    background-color: #457B9D;
+    padding: 15px 20px;
+    margin: 10px 40px;
+    border-radius: 10px;
+    width: 700px;
+    height: auto;
+    color: white;
+    text-align: center;
+     font-weight: normal;
+    
+}
+
+h3{
+    text-shadow: 0 3px 3px #457B9D;
+    font-size: 30px;
+}
+
+img {
+    width: 100px;
+   border-radius: 50%;
+   height: 100px;
+   border: #1D3557 4px solid;
+}
+
+.places{
+     
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.place{
+    text-align: center;
+    width: 250px;
+    font-size: 20px;
+}
+
+.profile_card{
+    width: 400px;
+    height: 380px;
+    background: linear-gradient(skyblue, #1D3557);
+    border-radius: 5px;
+    border-bottom: 4px solid #457B9D;
+    color: aliceblue;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
